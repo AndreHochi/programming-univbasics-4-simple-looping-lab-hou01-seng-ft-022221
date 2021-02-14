@@ -24,10 +24,17 @@ end
 
 def return_string_array(array)
   count = 0
+<<<<<<< HEAD
   new_array = []
   while count < array.length do
     new_array.push(array[count].to_s) 
     count += 1
   end
   new_array
+=======
+  while count < array.length do
+    array[count].to_s
+  end
+  array
+>>>>>>> ebd1f59e25006b371e7601ba117ada1af3439a14
 end
